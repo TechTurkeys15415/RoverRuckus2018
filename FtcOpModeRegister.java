@@ -69,10 +69,10 @@ public class FtcOpModeRegister implements OpModeRegister {
 
 //      manager.register("[NAME OF FILE {no .java}]", org.firstinspires.ftc.teamcode.[NAME OF FILE {No .java}].class);
 
-        manager.register("Color_Sensor", org.firstinspires.ftc.teamcode.Color_Sensor.class);
-        manager.register("Sampling", org.firstinspires.ftc.teamcode.Sampling.class);
-        manager.register("Sampling_Edited", org.firstinspires.ftc.teamcode.Sampling_Edited.class);
-        manager.register("Simple_Sampling", org.firstinspires.ftc.teamcode.Simple_Sampling.class);
+        manager.register("Color_Sensor", org.firstinspires.ftc.teamcode.Color_Sensor.class);//IGNORE THIS LINE
+        manager.register("Sampling", org.firstinspires.ftc.teamcode.Sampling.class);//IGNORE THIS LINE
+        manager.register("Sampling_Edited", org.firstinspires.ftc.teamcode.Sampling_Edited.class);//IGNORE THIS LINE
+        manager.register("Simple_Sampling", org.firstinspires.ftc.teamcode.Simple_Sampling.class);//IGNORE THIS LINE
 
 
     }
