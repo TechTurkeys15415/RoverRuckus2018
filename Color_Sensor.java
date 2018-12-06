@@ -1,3 +1,5 @@
+//This code outputs the ARGB value of whatever the color sensor senses
+
 package org.firstinspires.ftc.teamcode;
 
 import com.qualcomm.robotcore.eventloop.opmode.Autonomous;
