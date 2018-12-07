@@ -1,3 +1,5 @@
+//This code outputs the HSV value of the sensor and if it senses the gold or silver, it displays it on the DS
+
 package org.firstinspires.ftc.teamcode;
 
 import android.graphics.Color;
