@@ -7,7 +7,7 @@ import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
 import com.qualcomm.robotcore.hardware.ColorSensor;
 import com.qualcomm.robotcore.hardware.DcMotor;
 import com.qualcomm.robotcore.hardware.DcMotorSimple;
-
+//Voltage is 13.58 V
 @Autonomous (name = "Sampling_HSV_Main")
 
 public class Main_Auto_Crater extends LinearOpMode {
@@ -53,7 +53,7 @@ public class Main_Auto_Crater extends LinearOpMode {
 
             M1_BLW.setPower(1);
             M2_BRW.setPower(-1);
-            sleep(180);
+            sleep(100);
             M1_BLW.setPower(0);
             M2_BRW.setPower(0);
 
@@ -64,7 +64,7 @@ public class Main_Auto_Crater extends LinearOpMode {
             M2_BRW.setPower(0);
 
             M1_BLW.setPower(1);
-            M2_BRW.setPower(.2);
+            M2_BRW.setPower(.17);
             sleep(500);
             M1_BLW.setPower(0);
             M2_BRW.setPower(0);
@@ -112,7 +112,7 @@ public class Main_Auto_Crater extends LinearOpMode {
                 stop();
             }
 
-            else if((hue > 95 && hue < 115) && (sat > .16 && sat < .24) && (val > .78 && val < 1)){
+            else if((hue > 95 && hue < 150) && (sat > .16 && sat < .24) && (val > .78 && val < 1)){
                 telemetry.addData("READING","WHITE");
                 telemetry.update();
 
